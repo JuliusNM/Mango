@@ -1,0 +1,111 @@
+/*
+/* Created by Julius
+ * Specific styles of signin, register, component
+ */
+/*
+ * General styles
+ */
+.bg{
+    background-image: url('../img/image2.jpg');
+    background-size: cover;
+}
+.bg2{
+    background-image: url('../img/image1.jpg');
+    background-size: cover;
+}
+.bg3{
+    background-image: url('../img/image3.jpg');
+    background-size: cover;
+}
+body, html{
+    height: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.main{
+    margin-top: 40px;
+}
+
+h1.title {
+    font-size: 50px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+}
+
+hr{
+    width: 10%;
+    color: #fff;
+}
+
+.form-group{
+    margin-bottom: 10px;
+    width: 400px
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login{
+    background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+    margin-top: 30px;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 40px 100px;
+
+}
+
+.login-button{
+    margin-top: 5px;
+}
+
+.login-register{
+    font-size: 10px;
+    text-align: center;
+}
+.login-box{
+    margin-top:150px;
+    margin-left: 600px;
+    background-color: #fff;
+    padding: 40px 40px;
+
+}
+.btn-l{
+    width: 140px;
+}
+.g{
+    background-color: #C0C0C0;
+}
+.admin-login-box{
+    margin: auto;
+    margin-top: 80px;
+    background-color: #fff;
+    padding: 20px 40px;
+}
+/*.overlay{
+    background-color: rgba(248, 247, 216, 0.7);
+    position: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}*/
