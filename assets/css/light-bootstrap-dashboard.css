@@ -104,7 +104,6 @@ h5, .h5 {
 h6, .h6 {
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
 }
 
 p {
@@ -3817,4 +3816,17 @@ fieldset[disabled] .btn-neutral.active {
 }
 .profile {
     padding: 10px;
+}
+.heading {
+     line-height: 0px;
+}
+.blue {
+    background-color: #388CEB;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.icon {
+     color: #388CEB;
+     height: 40px;
 }
