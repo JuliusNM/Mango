@@ -437,6 +437,13 @@ input:focus {
     float: right;
     width: calc(100% - 260px);
 }
+.no-sidebar {
+    position: relative;
+    z-index: 2;
+    float: right;
+    width: calc(100% - 0px);
+}
+
 
 .main-panel > .content {
     padding: 30px 15px;
@@ -465,14 +472,14 @@ input:focus {
 }
 
 .btn {
-    border-width: 2px;
-    background-color: transparent;
-    font-weight: 400;
+  /*  border-width: 2px;*/
+    background-color: #C6C6C6;
+   /* font-weight: 400;*/
     opacity: 0.8;
     filter: alpha(opacity=80);
-    padding: 8px 16px;
-    border-color: #888888;
-    color: #888888;
+   /* padding: 8px 16px;*/
+/*    border-color: #888888;*/
+    color: black;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active,
@@ -3886,4 +3893,18 @@ fieldset[disabled] .btn-neutral.active {
     color: #fff;
     transition: all .3s ease;
     text-decoration: none;
+}
+.workbench {
+    margin-top: 10px;
+    margin-left: 100px;
+    color: #7F7F7F;
+    text-align: left;
+}
+.workbench h2 {
+    font-weight: bold;
+    line-height: 30px;
+}
+.workbench-buttons{
+    margin-top: 20px;
+    text-align: center;
 }
