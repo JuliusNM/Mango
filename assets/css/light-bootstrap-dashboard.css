@@ -3922,3 +3922,15 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .material-icons.md-48 { font-size: 48px; }
+.card_icon {
+    margin-top: 30px;
+}
+.material-icons.purple {
+    color: #3E0082;
+ }
+
+.card-footer {
+    text-align: left;
+    margin-left: 2px;
+    margin-right: 2px;
+}
